@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_appventor",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": ["--flavor", "prod", "-t", "./lib/main_prod.dart"]
+        },
+        {
+            "name": "flutter_appventor (beta)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_beta.dart",
+            "args": ["--flavor", "beta", "-t", "./lib/main_beta.dart"]
+        },
+        {
+            "name": "flutter_appventor (dev)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": ["--flavor", "dev", "-t", "./lib/main_dev.dart"]
+        },
+        {
+            "name": "flutter_appventor (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": ["--flavor", "prod", "-t", "./lib/main_prod.dart"]
+        },
+        {
+            "name": "flutter_appventor (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": ["--flavor", "prod", "-t", "./lib/main_prod.dart"]
+        }
+    ]
+}
