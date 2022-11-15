@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_Beta.dart
+ASSET_PREFIX=Beta
+BUNDLE_NAME=beta
+BUNDLE_DISPLAY_NAME=beta

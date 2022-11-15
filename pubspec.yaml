@@ -35,30 +35,30 @@ flavorizr:
         name: "prod"
       android:
         applicationId: "com.appventor.app"
-        icon: "assets/img/logo.png"
+        icon: "assets/img/logo.jpg"
       ios:
         bundleId: "com.appventor.app"
-        icon: "assets/img/logo.png"
+        icon: "assets/img/logo.jpg"
 
     Beta:
       app:
         name: "beta"
       android:
         applicationId: "com.appventor.beta"
-        icon: "assets/img/logo_beta.png"
+        icon: "assets/img/logo_beta.jpg"
       ios:
         bundleId: "com.appventor.beta"
-        icon: "assets/img/logo_beta.png"
+        icon: "assets/img/logo_beta.jpg"
 
     dev:
       app:
         name: "dev"
       android:
         applicationId: "com.appventor.dev"
-        icon: "assets/img/logo_dev.png"
+        icon: "assets/img/logo_dev.jpg"
       ios:
         bundleId: "com.appventor.dev"
-        icon: "assets/img/logo_dev.png"
+        icon: "assets/img/logo_dev.jpg"
 
 flutter:
   uses-material-design: true
