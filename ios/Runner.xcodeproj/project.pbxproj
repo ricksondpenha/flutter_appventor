@@ -481,14 +481,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = WCF27R9MYR;
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appventor.flutterAppventor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appventor.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -563,6 +564,87 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-dev";
+		};
+		43DB3E9829239C8C00DD07EC /* Debug-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-prod";
+		};
+		43DB3E9929239C8C00DD07EC /* Profile-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-prod";
+		};
+		43DB3E9A29239C8C00DD07EC /* Release-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				PRODUCT_NAME = Runner;
+			};
+			name = "Release-prod";
+		};
+		43DB3E9B29239C8C00DD07EC /* Debug-Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-Beta";
+		};
+		43DB3E9C29239C8C00DD07EC /* Profile-Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-Beta";
+		};
+		43DB3E9D29239C8C00DD07EC /* Release-Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				PRODUCT_NAME = Runner;
+			};
+			name = "Release-Beta";
+		};
+		43DB3E9E29239C8C00DD07EC /* Debug-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-dev";
+		};
+		43DB3E9F29239C8C00DD07EC /* Profile-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-dev";
+		};
+		43DB3EA029239C8C00DD07EC /* Release-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				PRODUCT_NAME = Runner;
 			};
 			name = "Release-dev";
 		};
@@ -820,14 +902,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = WCF27R9MYR;
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appventor.flutterAppventor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appventor.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -843,14 +926,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = WCF27R9MYR;
+				DEVELOPMENT_TEAM = 6H8H3AAM44;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appventor.flutterAppventor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appventor.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1168,6 +1252,15 @@
 				97C147061CF9000F007C117D /* Debug */,
 				97C147071CF9000F007C117D /* Release */,
 				249021D4217E4FDB00AE95B9 /* Profile */,
+				43DB3E9829239C8C00DD07EC /* Debug-prod */,
+				43DB3E9929239C8C00DD07EC /* Profile-prod */,
+				43DB3E9A29239C8C00DD07EC /* Release-prod */,
+				43DB3E9B29239C8C00DD07EC /* Debug-Beta */,
+				43DB3E9C29239C8C00DD07EC /* Profile-Beta */,
+				43DB3E9D29239C8C00DD07EC /* Release-Beta */,
+				43DB3E9E29239C8C00DD07EC /* Debug-dev */,
+				43DB3E9F29239C8C00DD07EC /* Profile-dev */,
+				43DB3EA029239C8C00DD07EC /* Release-dev */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
