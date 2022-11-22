@@ -36,15 +36,16 @@ Future<ProviderContainer> bootstrap() async {
       );
   }
 // beta.DefaultFirebaseOptions
-  final container = ProviderContainer(
+  final ref = ProviderContainer(
     overrides: [],
     observers: [if (F.appFlavor == Flavor.DEV) ProviderLogger()],
   );
+  await Future.delayed(const Duration(seconds: 1));
 
   ///#initialize all the required providers here
-  // await container.listen(, (previous, next) { });
+  // ref.listen<AuthState>(AuthProvider, (previous, next) { });
   // await container.read(provider)
-  return container;
+  return ref;
 }
 
 class ProviderLogger extends ProviderObserver {
