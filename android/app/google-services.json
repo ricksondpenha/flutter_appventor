@@ -1,40 +1,40 @@
 {
   "project_info": {
-    "project_number": "167570291473",
-    "project_id": "flutter-appventor-dev",
-    "storage_bucket": "flutter-appventor-dev.appspot.com"
+    "project_number": "1076464861257",
+    "project_id": "flutter-appventor",
+    "storage_bucket": "flutter-appventor.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:167570291473:android:45e71ca320eac11f682ab0",
+        "mobilesdk_app_id": "1:1076464861257:android:111d65d0378354180fbf98",
         "android_client_info": {
-          "package_name": "com.appventor.dev"
+          "package_name": "com.appventor.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "167570291473-ff7rot1mrh714a4h7d1ero0s22g86n3c.apps.googleusercontent.com",
+          "client_id": "1076464861257-2asogkmnu5f1kotdbau7sd05lkv18avo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAewdBGqoTbNaeHvxieF20eoXzMHc6pkq8"
+          "current_key": "AIzaSyAlFQ2C-5F7MmciIhpysDwvTE1FhY_oLP8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "167570291473-ff7rot1mrh714a4h7d1ero0s22g86n3c.apps.googleusercontent.com",
+              "client_id": "1076464861257-2asogkmnu5f1kotdbau7sd05lkv18avo.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "167570291473-his363km9evc8vm8of6c2qgmvkjsj48h.apps.googleusercontent.com",
+              "client_id": "1076464861257-62akt26miipf1qlj6gvnknsuluprjo3t.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.appventor.dev"
+                "bundle_id": "com.appventor.app"
               }
             }
           ]
