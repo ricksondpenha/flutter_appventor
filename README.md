@@ -4,13 +4,41 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### TODO:document setting up and building flavors
 
-A few resources to get you started if this is your first Flutter project:
+### TODO:document setting up and configuring firebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### TODO:document setting up and configuring routes using go route
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### TODO:document clean architecture guidelines
+
+    creating a feature guideline
+    domain
+        entities (building models and naming schemes)
+        use cases
+        repositories
+    data
+        repository implementations
+        data sources
+    presentation
+        state
+            providers
+            viewmodel
+        views
+            widgets
+    testing
+        write tests for domain use cases
+        mock repositories
+        write widget tests for presentation, states and navigation
+    widgetbook
+        pure UI driven development
+        write pure widgets
+        test for all devices, languages etc.
+
+### Features and services
+
+    Upgrader
+    Navigation
+    Geo location
+    Firebase
+    Feature Flags

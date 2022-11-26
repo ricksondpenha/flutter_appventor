@@ -5,39 +5,53 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flutter_appventor",
+            "name": "DEBUG prod",
             "request": "launch",
             "type": "dart",
             "program": "lib/main_prod.dart",
             "args": ["--flavor", "prod", "-t", "./lib/main_prod.dart"]
         },
         {
-            "name": "flutter_appventor (beta)",
+            "name": "DEBUG beta",
             "request": "launch",
             "type": "dart",
             "program": "lib/main_beta.dart",
             "args": ["--flavor", "beta", "-t", "./lib/main_beta.dart"]
         },
         {
-            "name": "flutter_appventor (dev)",
+            "name": "DEBUG dev",
             "request": "launch",
             "type": "dart",
             "program": "lib/main_dev.dart",
             "args": ["--flavor", "dev", "-t", "./lib/main_dev.dart"]
         },
         {
-            "name": "flutter_appventor (profile mode)",
+            "name": "MACOS-DEBUG dev",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": ["-d", "macos"]
+        },
+        {
+            "name": "PROFILE prod",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile",
             "args": ["--flavor", "prod", "-t", "./lib/main_prod.dart"]
         },
         {
-            "name": "flutter_appventor (release mode)",
+            "name": "RELEASE prod",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release",
             "args": ["--flavor", "prod", "-t", "./lib/main_prod.dart"]
+        },
+        {
+            "name": "WIDGETBOOK",
+            "request": "launch",
+            "type": "dart",
+            "program": "widgetbook/main.dart",
+            "args": ["-d", "macos"]
         }
     ]
 }
