@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'config/themes.dart';
 import 'core/services/navigation_service.dart';
 
 class RootApp extends StatelessWidget {
@@ -13,8 +14,9 @@ class RootApp extends StatelessWidget {
       final router = ref.watch(appRouter('/'));
       return MaterialApp.router(
         routerConfig: router,
-        theme: FlexThemeData.light(scheme: FlexScheme.outerSpace),
-        darkTheme: FlexThemeData.dark(scheme: FlexScheme.blumineBlue),
+        theme: lightTheme,
+        darkTheme: darkTheme,
+        themeMode: ref.watch(themeProvider),
       );
     });
   }
